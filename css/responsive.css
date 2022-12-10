@@ -1,0 +1,74 @@
+/*=============== LARGE DEVICE RESPONSIVE START HERE ===============*/
+@media (max-width: 991px) {
+  html {
+    font-size: 55%;
+    scroll-padding-top: 7rem;
+  }
+  header {
+    padding: 2rem;
+  }
+
+  section {
+    padding: 2rem;
+  }
+}
+
+/*=============== MEDIUM DEVICE RESPONSIVE START HERE ===============*/
+@media (max-width: 768px) {
+  .navbar {
+    position: absolute;
+    top: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    left: -100rem;
+    background: #f7f7f7;
+  }
+
+  .navbar.active {
+    left: 0;
+  }
+
+  .navbar a {
+    width: 70%;
+    border-radius: 0.5rem;
+    border: 1px solid #222;
+    padding: 1rem;
+    margin: 1rem;
+    background: #fff;
+  }
+
+  #mobile {
+    display: block;
+    align-items: center;
+    font-size: 3rem;
+    border: 1px solid #222;
+    padding: 0.1rem 1.5rem;
+    border-radius: 0.5rem;
+  }
+
+  .about--des {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .form--des {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .card {
+    justify-content: space-around;
+  }
+}
+/*=============== SMALL DEVICE RESPONSIVE START HERE ===============*/
+@media (max-width: 450px) {
+  html {
+    font-size: 50%;
+  }
+
+  .heading {
+    font-size: 3rem;
+  }
+}
