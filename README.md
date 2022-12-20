@@ -5,6 +5,7 @@ Connect with me!
 
   <h2>Resposive-Flowers Website</h2>
 
-  This website is fully responsive personal portfolio, <br />Responsive for all devices, built using HTML, CSS, and JavaScript.
+  This website is fully responsive personal portfolio, <br />Responsive for all devices, built using HTML, CSS, and 
+  JavaScript.
 
   <a href="https://respopnsive-flowers-website.netlify.app/"><strong>➥ Live Demo</strong></a>
